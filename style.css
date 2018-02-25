@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#select-city{
+    display: block;
+    position: relative;
+    width: 70%;
+    border-radius: 10px 0 0 10px;
+    font-size: 18px;
+    text-align: center;
+    color: #607D8B;
+    font-weight: bold;
+   
+}
+#search-block{
+    position: relative;
+    top: 15%;
+    width: 400px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+.snow{
+    background-image: url('img/snow.jpg');
+    background-size: cover;
+}
+.weather-block{
+    width: 400px;
+    height: 400px;
+    background-color: rgba(33, 38, 43, 0.818);
+    margin: 0 auto;
+    position: relative;
+    top: 20%;
+    border-radius: 10px;
+    
+}
+#btn-search {
+    text-decoration: none;
+    outline: none;
+    padding: 5px 10px;
+    color: white;
+    border: 1px solid rgba(255,255,255,.4);
+    background: #2196f3;
+    font-weight: 300;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 2px;
+    width: 30%;
+    text-align: center;
+    border-radius:0 10px 10px 0;
+    cursor: pointer;
+  }
+
+  #day, #date,#city-name,#description{
+    text-align: center;
+    color: #fff;
+    font-size: 25px;
+    padding-top: 20px;
+    font-weight: 900;
+    font-family: sans-serif;
+  }
+  #description{
+    text-transform: uppercase;
+  }
+  #temparature{
+    text-align: center;
+    color: #ffeb3b;
+    font-size: 75px;
+    padding-top: 20px;
+    font-weight: 900;
+    font-family: sans-serif;
+  }
+  #weather{
+      text-align: center;
+  }
+  input {
+    outline:none;
+ }
